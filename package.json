@@ -1,0 +1,16 @@
+{
+  "name": "agentic-rag-knowledge-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agentic RAG enterprise knowledge platform with hybrid retrieval, knowledge graph and permission-aware AI chat",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "pnpm --dir backend run build && pnpm --dir frontend run build",
+    "test": "pnpm --dir backend test -- --runInBand",
+    "lint": "pnpm --dir backend run lint && pnpm --dir frontend run lint"
+  }
+}
+

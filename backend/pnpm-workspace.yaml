@@ -1,0 +1,6 @@
+allowBuilds:
+  better-sqlite3: true
+  core-js: true
+  tesseract.js: true
+  unrs-resolver: true
+
