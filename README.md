@@ -83,7 +83,7 @@ pnpm run dev
 ```powershell
 pnpm --dir backend run build
 pnpm --dir backend run lint
-pnpm --dir backend test -- --runInBand
+pnpm --dir backend test
 pnpm --dir frontend run lint
 pnpm --dir frontend run build
 ```
